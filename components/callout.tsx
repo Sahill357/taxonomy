@@ -15,7 +15,7 @@ export function Callout({
   return (
     <div
       className={cn("my-6 flex items-start rounded-md border border-l-4 p-4", {
-         "border-[rgb(29,40,58)] ": type === "danger",
+         "border-[rgb(29,40,58)]  ": type === "danger",
         "border-[rgb(29,40,58)]": type === "warning",
       })}
       {...props}
